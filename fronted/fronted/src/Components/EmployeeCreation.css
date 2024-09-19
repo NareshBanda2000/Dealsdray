@@ -1,0 +1,92 @@
+
+.employee-creation-container {
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar-logo {
+    background-color: #fff;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.navbar-blue {
+    background-color: lightblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left a,
+.nav-center a,
+.nav-right a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.dashboard-title {
+    background-color: yellow;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.form-container {
+    width: 50%; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="radio"],
+.form-group input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.success-message {
+    color: green;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}

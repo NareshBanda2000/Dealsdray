@@ -1,0 +1,122 @@
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar-logo {
+    background-color: #fff;
+    width: 100%;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    text-align: left;
+}
+.navbar-blue {
+    background-color: lightblue;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left a,
+.nav-center a,
+.nav-right a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.nav-left {
+    flex: 1;
+    text-align: left;
+}
+
+.nav-center {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-right {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-right span {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.dashboard-title {
+    background-color: yellow;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-title h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+.main-content {
+    padding: 20px;
+    background-color: #f4f4f4;
+    flex: 1;
+}
+
+.main-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.dashboard-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn-list {
+    background-color: #4CAF50;
+}
+
+.btn-create {
+    background-color: #2196F3;
+}
+
+.btn-update {
+    background-color: #f44336;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
